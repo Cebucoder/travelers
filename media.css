@@ -1,0 +1,211 @@
+@media (max-width:1025px){
+    .serv-description-cont{
+        grid-template-columns: 2fr 2fr;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+    .subscribe{
+        width: 100%;
+    }
+    .subscribe input{
+        width: 100%;
+    }
+    .about-travelers{
+        min-width: 100%;
+    }
+    .copywrited{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:980px){
+    .navlinks{
+        display: none !important;
+    }
+    .menu-icon{
+        display: flex !important;
+    }
+    .main-container{
+        padding: 0 30px;
+        padding-top: 100px;
+    }
+    .navigation-bar{
+        padding: 0 30px;
+    }
+}
+@media(min-width:981px){
+    .menu-content{
+        visibility: hidden;
+        opacity: 0;
+        /* right: -100%; */
+    }
+}
+
+@media (max-width:962px){
+    .serv-description-cont{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:946px){
+    .travel-card{
+        width: 230px !important;
+        height: auto;
+    }
+    .travel-card img{
+        object-fit: cover;
+        object-position: center;
+    }
+    .travel-card label{
+        font-size: 13px;
+    }
+    .travel-card-descriptions{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .card-description{
+        margin: 15px 20px;
+        min-width: 40%;
+    }
+    .card-description div p{
+        width: auto;
+    }
+}
+
+
+@media (max-width:784px){
+    .testimony{
+        flex-direction: column;
+        background: #fff;
+    }
+    .testimony-description{
+        left: 0;
+        min-width: 100%;
+        box-shadow: none;
+        height: auto;
+    }
+    .testimony-img{
+        width: 100%;
+        height: 300px;
+    }.siwiper-slide,.testimonials-cont{
+        background: #fff;
+    }
+    .destination-card span label{
+        font-size: 13px;
+    }
+
+    .serv-description-cont{
+        grid-template-columns: 1fr;
+    }
+    .services-description,.services-description div p{
+        width: 100%;
+    }
+    .ourblog-description h3{
+        font-size: 16px;
+    }
+    .ourblog-description div, .ourblog-description p{
+        font-size: 12px;
+    }
+    .slider-content h1{
+        font-size: 24px;
+    }
+    .slider-content p{
+        width: auto;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:752px){
+    
+    .services-description,.services-description div p{
+        width: auto;
+    }
+    .hero-banner{
+        height: auto;
+        background: #ffff;
+        min-height: 300px;
+    }
+    .slider-description{
+        padding: 0 20px;
+        text-align: center;
+        
+    }
+}
+
+
+@media (max-width:716px){
+    .card-description{
+        margin: 15px 20px;
+        width: 100%;
+    }
+    .travel-card{
+        width: 100% !important;
+        max-height: 400px;
+        height: auto;
+    }
+    .video-container{
+        padding: 10px;
+    }
+}
+
+@media (max-width:630px){
+    .destinations-img{
+        grid-template-columns: 1fr 1fr; 
+    }
+    .destination-card{
+        margin: 5px;
+    }
+
+    .ourblog-img-cont{
+        flex-direction: column;
+    }
+    .ourblog-img-holder{
+        width: 100%;
+    }
+}
+
+@media (max-width:560px){
+    .main-container{
+        padding: 0 15px;
+        padding-top: 100px;
+    }
+    .arrow-button{
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+    .navigation-bar{
+        padding: 0 15px;
+    }
+    .navigation-button{
+        padding: 0 10px;
+    }
+    .slider-content button{
+        margin: 15px 0;
+    }
+}
+
+@media (max-width:400px){
+    .navigation-bar .navlinks-icons span{
+        margin: 0;
+    }
+    .ourservices h1{
+        font-size: 24px;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer-content{
+        padding: 20px 0px;
+    }
+    .about-travelers{
+        width: 100%;
+    }
+}

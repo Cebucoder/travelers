@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="media.css">
+
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <div class="navigation-bar">
+        <div class="logo">
+            Travelers
+        </div>
+        <div class="navlinks">
+            <li>Home</li>
+            <li>Destinations</li>
+            <li>Discount</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </div>
+        <div class="navlinks-icons">
+            <span><ion-icon name="logo-twitter"></ion-icon></span>
+            <span><ion-icon name="logo-facebook"></ion-icon></span>
+            <span><ion-icon name="logo-instagram"></ion-icon></span>
+            <span class="menu-icon" id="menu-icon"><ion-icon name="menu"></ion-icon></span>
+        </div>
+        <div class="menu-content" id="menu-content">
+            <li>Home</li>
+            <li>Destinations</li>
+            <li>Discount</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </div>
+        
+    </div>
+    <!-- navigation bar end-->
+
+    <div class="main-container">
+        
+
+        <!-- hero banner -->
+        <div class="hero-banner" >
+            <!-- <div class="slider" id="slider">
+                <div class="slider-content" id="slider-width">
+                    <img src="./assets/banner/hero_bg_1.jpg" alt="">
+                    <div class="slider-description">
+                        <h1>Love the places</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        <button>Book now</button>
+                    </div>
+                </div>
+    
+                <div class="slider-content">
+                    <img src="./assets/banner/hero_bg_2.jpg" alt="">
+                    <div class="slider-description">
+                        <h1>Never stop exploring</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        <button>Book now</button>
+                    </div>
+                </div>
+
+                <div class="slider-content">
+                    <img src="./assets/banner/hero_bg_1.jpg" alt="">
+                    <div class="slider-description">
+                        <h1>Never stop exploring</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                        <button>Book now</button>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- naviagtion next and prev arrow -->
+            <!-- <div class="navigation-button">
+                <div class="arrow-button" id="arrow-button-prev">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="arrow-button" id="arrow-button-next">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+            </div> -->
+
+
+            <swiper-container class="mySwiper" navigation="true" style="
+            --swiper-navigation-size:25px;
+            --swiper-theme-color:#fff;">
+                <swiper-slide>
+                    <div class="slider-content" id="slider-width">
+                        <img src="./assets/banner/hero_bg_1.jpg" alt="">
+                        <div class="slider-description">
+                            <h1>Love the places</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="slider-content">
+                        <img src="./assets/banner/hero_bg_2.jpg" alt="">
+                        <div class="slider-description">
+                            <h1>Never stop exploring</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="slider-content" id="slider-width">
+                        <img src="./assets/banner/hero_bg_1.jpg" alt="">
+                        <div class="slider-description">
+                            <h1>Love the places</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                            <button>Book now</button>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                
+                
+              </swiper-container>
+
+
+
+        </div>
+        <!-- hero banner end-->
+
+        <div class="travel-services">
+            <div class="travel-cards-holder">
+                <div class="travel-card">
+                    <img src="./assets/cards/img_1.jpg" alt="">
+                    <label>Write down your experience</label>
+                </div>
+                <div class="travel-card">
+                    <img src="./assets/cards/img_2.jpg" alt="">
+                    <label>Explore Asian Mountains</label>
+                </div>
+                <div class="travel-card">
+                    <img src="./assets/cards/img_3.jpg" alt="">
+                    <label>Safe Trip With Airasia</label>
+                </div>
+            </div>
+
+            <div class="travel-card-descriptions">
+                <div class="card-description">
+                    <span><ion-icon name="airplane-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Air Ticketing</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card-description">
+                    <span><ion-icon name="boat-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Cruises</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card-description">
+                    <span><ion-icon name="locate-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Tour Packages</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- testimonials -->
+        
+        <div class="testimonials-cont">
+            <div class="testimonial-header">
+                Testimonials
+            </div>
+            <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true"  style="
+            --swiper-pagination-color: #8e8681; 
+            --swiper-pagination-bullet-active-width:15px;
+            --swiper-pagination-bullet-height:15px;
+            --swiper-pagination-bullet-border-radius:50px;
+            ">
+                <swiper-slide>
+                    <div class="testimony">
+                        <div class="testimony-img">
+                            <img src="./assets/cards/img_2.jpg" alt="">
+                        </div>
+                        <div class="testimony-description">
+                            <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, unde illo impedit dicta tempore error cum in velit fugiat earum rem reprehenderit provident eius accusantium minus animi, iste odio id."</p>
+                            <div class="credit">
+                                <i><small>-Tonette Blare,<a href="">Traveler</a></small></i>
+                            </div class="credit">
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="testimony">
+                        <div class="testimony-img">
+                            <img src="./assets/cards/img_1.jpg" alt="">
+                        </div>
+                        <div class="testimony-description">
+                            <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, unde illo impedit dicta tempore error cum in velit fugiat earum rem reprehenderit provident eius accusantium minus animi, iste odio id."</p>
+                            <div class="credit">
+                                <i><small>-Tonette Blare,<a href="">Traveler</a></small></i>
+                            </div class="credit">
+                        </div>
+                    </div>
+                </swiper-slide>
+
+              </swiper-container>
+        </div>
+
+        <!-- destinations -->
+        <div class="destinations">
+            <div class="destinations-header">
+                <h1>Our Destinations</h1>
+                <small>Choose your next destinations</small>
+            </div>
+
+            <div class="destination-card-holder">
+                <div class="destinations-img">
+                    <div class="destination-card">
+                        <img src="./assets/cards/01-greece.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Santorini, Greece</label>
+                        </span>
+                    </div>
+                    <div class="destination-card">
+                        <img src="./assets/cards/02-rome.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Rome, Italy</label>
+                        </span>
+                    </div>
+                    <div class="destination-card">
+                        <img src="./assets/cards/03-japan.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Mount Fuji, Japan</label>
+                        </span>
+                    </div>
+                    <div class="destination-card">
+                        <img src="./assets/cards/04-dubai.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Camels, Dubai</label>
+                        </span>
+                    </div>
+                    <div class="destination-card">
+                        <img src="./assets/cards/05-london.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Elizabeth Tower, London</label>
+                        </span>
+                    </div>
+                    <div class="destination-card">
+                        <img src="./assets/cards/06-australia.jpg" alt="" width="280px">
+                        <span>
+                            <small>$590</small>
+                            <label>Opera House, Australia</label>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- our outstanding services -->
+        <div class="ourservices">
+            <img src="./assets/banner/hero_bg_2.jpg" alt="">
+            <div class="outstanding-label">
+                <h1>Our Outstanding <br>Services</h1>
+                <span id="showVideo"><ion-icon name="play"></ion-icon></span>
+            </div>
+        </div>
+
+
+        <!-- video container -->
+        <div class="video-container" id="video-container">
+            <div class="video-close-button" id="closeVideo">
+                <ion-icon name="close"></ion-icon>
+            </div>
+            <div class="video"id="video">
+                <iframe width="903" height="464" src="https://www.youtube.com/embed/fEErySYqItI" title="Into The Nature - Cinematic Travel Video | Sony a6300" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="services-description-cont">
+            <div class="serv-desc-header">
+                <h1>Our Services</h1>
+                <small>We offer The Following Services</small>
+            </div>
+            <div class="serv-description-cont">
+                <div class="services-description">
+                    <span><ion-icon name="airplane-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Air Ticketing</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="services-description">
+                    <span><ion-icon name="boat-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Cruises</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="services-description">
+                    <span><ion-icon name="locate-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Cruises</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="services-description">
+                    <span><ion-icon name="bed-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Hotel Accomodations</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="services-description">
+                    <span><ion-icon name="boat-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Sea Explorations</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="services-description">
+                    <span><ion-icon name="snow-outline" style="font-size: 40px;"></ion-icon></span>
+                    <div>
+                        <label>Ski Experiences</label>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <!-- our blog -->
+        <div class="ourblog-container">
+            <div class="ourblog-header">
+                <h1>Our Blog</h1>
+                <small>See Our Daily News & Updates</small>
+            </div>
+            <div class="ourblog-img-cont">
+                <div class="ourblog-img-holder">
+                    <div class="ourblog-img">
+                        <img src="./assets/banner/hero_bg_2.jpg" alt="">
+                    </div>
+                    <div class="ourblog-description">
+                        <h3>How to Plan Your Vacation</h3>
+                        <div>
+                            by Tonette Blare • October 30, 2023 at 2:00 pm • <a href="">News</a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                    </div>
+                </div>
+                <div class="ourblog-img-holder">
+                    <div class="ourblog-img">
+                        <img src="./assets/banner/hero_bg_1.jpg" alt="">
+                    </div>
+                    <div class="ourblog-description">
+                        <h3>How to Plan Your Vacation</h3>
+                        <div>
+                            by Tonette Blare • October 30, 2023 at 2:00 pm • <a href="">News</a>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ourblogs-button">
+                <button>View all blogs post</button>
+            </div>
+        </div>
+
+        <!-- travel with us -->
+        <div class="travelwithus-button-cont">
+            <h1>Want to travel with us?</h1>
+            <button>Book Now</button>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-links">
+                 <div class="footer-content about-travelers">
+                    <h3>About Travelers</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odit quibusdam odio aliquid magnam asperiores? Numquam perspiciatis, distinctio, corporis inventore labore itaque sint, soluta voluptatibus reprehenderit sunt laboriosam. Vel, dignissimos.</p>
+                 </div>
+                 <div class="footer-content">
+                    <h3>Quick Links</h3>
+                    <li>Home</li>
+                    <li>Destinations</li>
+                    <li>Discount</li>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                 </div>
+                 <div class="footer-content subscribe">
+                    <h3>Subscribe Newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit minima minus odio.</p>
+                    <span>
+                        <input type="email" placeholder="Enter email">
+                        <button>Subscribe</button>
+                    </span>
+                 </div>
+                 
+            </div>
+
+            <!-- footer-social links -->
+            <div class="footer-social-links">
+                <span><ion-icon name="logo-twitter"></ion-icon></span>
+                <span><ion-icon name="logo-facebook"></ion-icon></span>
+                <span><ion-icon name="logo-instagram"></ion-icon></span>
+                <span><ion-icon name="logo-linkedin"></ion-icon></span>
+            </div>
+            <div class="copywrited">
+                Copyright © 2023 - <span id="year">---</span> 
+                <script>
+                    let currentDate = new Date();
+                    let year = currentDate.getFullYear();
+                    document.getElementById('year').textContent = year;
+                </script> 
+                All rights reserved | This template is made with <ion-icon name="heart" style="margin: 0 10px;"></ion-icon>  by Template Ventures
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+
+<!-- <script src="slider.js"></script> -->
+<script src="scripts.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
